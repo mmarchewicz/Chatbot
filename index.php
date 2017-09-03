@@ -7,8 +7,8 @@ use mmarchewicz\chatbot\ChatBot;
 * Obtain data from Facebook and setup variables $hubVerifyToken and $accessToken
 * Read readme file for full instalation process
 */
-$hubVerifyToken = '';
-$accessToken = '';
+$hubVerifyToken = 'bot';
+$accessToken = 'ss';
 
 $bot = new ChatBot($hubVerifyToken, $accessToken);
 $bot->init();
